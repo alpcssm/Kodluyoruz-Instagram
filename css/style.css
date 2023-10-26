@@ -5,6 +5,9 @@
   background-position: 10%;
   background-size: 6%;
 }
+body {
+  height: 100%;
+}
 
 input.empty {
     font-family: FontAwesome;
@@ -43,4 +46,48 @@ input.empty {
 .rightpanellinks:hover {
   text-decoration: none;
   color: lightgrey;
+}
+#logoimg {
+  margin-left: 192px;
+}
+
+@media (max-width:1200px) {
+  .storyphoto {
+    width: 50px;
+    height: 50px;
+  }
+  .storytext {
+    font-size: 12px;
+  }
+  #logoimg {
+    margin-left: 150px;
+  }
+}
+@media (max-width:992px) {
+  .storyphoto {
+    width: 35px;
+    height: 35px;
+  }
+  .storytext {
+    font-size: 7px;
+  }
+}
+@media (max-width:768px) {
+  .storyphoto {
+    width: 25px;
+    height: 25px;
+  }
+  .storytext {
+    font-size: 6px;
+  }
+}
+
+@media (max-width:576px) {
+  .storyphoto {
+    width: 50px;
+    height: 50px;
+  }
+  .storytext {
+    font-size: 6px;
+  }
 }
